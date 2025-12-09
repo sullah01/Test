@@ -1,0 +1,56 @@
+/* location-styles.css */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.dynamic-contact-display {
+    transition: all 0.3s ease;
+}
+
+.dynamic-phone {
+    text-decoration: none;
+    color: #228B22;
+    font-weight: 700;
+}
+
+.dynamic-phone:hover {
+    color: #1a6b1a;
+    text-decoration: underline;
+}
+
+.location-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    background: #228B22;
+    color: white;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dynamic-contact-display {
+        padding: 15px 10px;
+        margin: 10px;
+    }
+    
+    .dynamic-phone {
+        font-size: 1.5em !important;
+    }
+    
+    .location-info {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>24/7 HomeFix Experts — Heating, Plumbing, Electrical, Heating & Gas Services</title>
+   <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%23228B22'/><text x='8' y='11' font-family='Arial, sans-serif' font-size='8' fill='%23fff' text-anchor='middle' font-weight='bold'>24</text></svg>">
+  <!-- Favicon ends -->
+  <meta name="description" content="24/7 emergency heating, plumbing, electrical and gas services. Gas Safe registered experts available day and night for all your home repair needs.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="location-styles.css">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a class="brand" href="index.html">24/7 HomeFix Experts</a>
+      <!-- LOGO begins -->
+      <div class="logo-container">
+        <a href="index.html" class="logo-link">
+          <img src="assets/logos/logo-light.png" alt="24HOME FIXEXPERTS Logo" class="nav-logo">
+        </a>
+      </div>
+      <!-- LOGO ends -->
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn btn-outline">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- 24/7 Heating & Boiler Experts Banner -->
+  <section class="expert-banner">
+    <div class="container">
+      <div class="expert-text">
+        <h2>24/7 Heating & Boiler Experts. <strong>Expert Help, Day or Night</strong></h2>
+      </div>
+      
+      <!-- DYNAMIC CONTACT NUMBER DISPLAY -->
+      <div class="dynamic-contact-display">
+        <p><i class="fas fa-phone-alt"></i> <strong>Your Local Emergency Number:</strong></p>
+        <a href="tel:01157722796" class="dynamic-phone">0115 772 2796</a>
+        <div class="location-info">
+          <span class="location-badge">
+            Serving <span class="dynamic-city">your area</span>
+          </span>
+        </div>
+      </div>
+      <!-- END DYNAMIC CONTACT NUMBER DISPLAY -->
+    </div>
+  </section>
+
+  <!-- Slider -->
+  <section class="hero">
+    <div class="slider" id="slider">
+      <!-- slides injected by script.js -->
+      <button class="slide-prev" aria-label="previous">◀</button>
+      <button class="slide-next" aria-label="next">▶</button>
+    </div>
+  </section>
+
+  <!-- Certification Badges Section -->
+  <section class="certification-section">
+    <div class="container">
+      <div class="certification-content">
+        <h3><strong>Qualified, Certified, Trusted</strong></h3>
+        <p>All our engineers are fully certified and insured for your peace of mind</p>
+        
+        <div class="certification-logos">
+          <div class="certification-item">
+            <img src="https://hmopropertylicensing.co.uk/wp-content/uploads/2021/03/gas-safe-register-logo-header-removebg-preview.png" 
+                 alt="Gas Safe Registered" 
+                 loading="lazy">
+            <p>Gas Safe Registered</p>
+          </div>
+          <div class="certification-item">
+            <img src="https://fireandelectrical.co.uk/wp-content/uploads/2018/04/niceic-logo.png" 
+                 alt="NICEIC Certified" 
+                 loading="lazy">
+            <p>NICEIC Certified</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Services preview alternating sections -->
+  <main class="container main-content">
+    <section class="services-preview" id="services-preview">
+      <!-- Service blocks injected by script.js -->
+    </section>
+
+    <!-- Dynamic blog/news area -->
+    <section class="news">
+      <h2 class="section-title">Latest From Our Blog & News</h2>
+      <div id="news-list" class="news-list">
+        <!-- dynamic items injected by script.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Get Your Heating Fixed?</h2>
+        <p>Don't let heating problems leave you in the cold. Our expert team is available 24/7 to provide fast, reliable solutions.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn">Book Now</a>
+          <a href="tel:01157722796" class="btn dynamic-phone">Call Now: <span class="dynamic-phone">0115 772 2796</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h4>24/7 HomeFix Experts</h4>
+        <p>Reliable heating, plumbing, electrical &amp; gas services for your home. <br><strong>247 HomeFix Experts: Qualified, Certified, Trusted.</strong></p>
+      </div>
+      <nav>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="copyright">&copy; <span id="year"></span> HomeFix Experts</div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <script src="./js/location-number.js"></script>
+</body>
+</html>
